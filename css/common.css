@@ -45,7 +45,7 @@ margin-left:14px;margin-top:21px;text-transform: uppercase;position: relative;}
 .gnb{float: left;margin-left: 264px;}
 .gnb>li{margin-right: 97px;float: left;}
 .gnb>li>a{height: 27px;line-height: 27px;font-size: 20px;font-weight: bold;color: #465a4f}
-.allmenu-area{clear: both;position: absolute;left:0;top:51px;width:100%;height: 357px;background-color: #fffef2;border:1px solid #465a4f;border-top:none}
+.allmenu-area{clear: both;position: absolute;left:0;top:51px;width:100%;height: 357px;background-color: #fffef2;border:1px solid #465a4f;border-top:none;display: none;}
 .allmenu-list .dep1{float: left;border-right: 1px solid #465a4f;height: 357px;}
 .allmenu-list .dep1:nth-child(1){width: 190px;}
 .allmenu-list .dep1:nth-child(2){width: 145px;}
@@ -64,4 +64,24 @@ margin-left:14px;margin-top:21px;text-transform: uppercase;position: relative;}
 
 /* footer */
 
+.footer-top{padding-top: 61px;}
+.footer-top .top-btn{display:block;width: 60px;height: 60px;background: url(../img/footer-top-btn.png) no-repeat;text-indent: -9999px;font-size: 0;margin: 0 auto;}
+.footer-top p:nth-of-type(1){font-size: 24px;margin-top: 40px;color:#424242}
+.footer-top p:nth-of-type(2){font-size: 20px;margin-top: 24px;color:#424242;margin-bottom: 36px;}
 
+.footer-top .mail-box{width: 604px;}
+.footer-top .mail-box input{float: left;font-size: 18px;border:none;height: 56px;}
+.footer-top .mail-box input[type='email']{padding-left:50px;width: 420px;background-color: #edeee2;outline: none;box-sizing: border-box;}
+.footer-top .mail-box input[type='submit']{background-color:#ca886e
+    ;width: 184px;color:#fff;}
+
+/* placeholder 컬러 */
+/* .footer-top .mail-box input[type='email']::placeholder{color:red}
+.footer-top .mail-box input[type='email']::-ms-input-placeholder{color:red}
+ */
+ .footer-menu {margin-top: 66px;}
+ .footer-menu dl{float: left;margin-right: 210px;width: 135px;text-align: center;}
+ .footer-menu dl:last-child{margin-right: 0;}
+ .footer-menu dl dt a{display:block;height: 45px;color:#333;font-size: 20px;line-height: 45px;border-bottom: 2px solid #ca886e;}
+ .footer-menu dl dd{margin-top: 22px;}
+ .footer-menu dl dd a{font-size: 16px;color:#6e6e6e;line-height: 45px;}
