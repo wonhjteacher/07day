@@ -104,7 +104,7 @@ margin-left:14px;margin-top:21px;text-transform: uppercase;position: relative;}
     position: fixed;right: 40px;bottom:190px;
    /*  border:2px solid red; */
     width:115px;height: 115px ;
-    display: none;
+    z-index: 10000;
 }
 .live-chat .live-chat-btn{display: block;text-indent: -9999px;background:#464646 url(../img/chat-open-btn.png) no-repeat center top 36px;width:115px;height: 115px;;border-radius: 50%;}
 
